@@ -37,7 +37,7 @@ namespace CasinoJuego
             {
                 timer1.Start();
                 contadorTicks = 0; 
-                objetivoTicks = rnd.Next(10);
+                objetivoTicks = rnd.Next(1000);
                 if (!String.IsNullOrEmpty(valorApuesta.Text))
                  saldoApostado = Double.Parse(valorApuesta.Text);
                 saldoJugador = saldoJugador - saldoApostado;
